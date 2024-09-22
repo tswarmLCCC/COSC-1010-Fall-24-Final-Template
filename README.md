@@ -1,28 +1,40 @@
-# Information about Basketball and the situation we are handling
+# Final Project Information - Model a statistical simulation
 
-Basketball is a team sport played between two teams, each consisting of five players. The game takes place on a rectangular court, usually indoors.  It is a complex game, and we will need to make many assumptions to help with reducing the number of thing we need to program to a manageable level!  Consider the following information.  We will add to this and build some other support materials over the coming month (hopefully together in those new sync sessions!).
+We will be writing a program that helps us gain some insight into a situation that can occur in Basketball.  When down 3 with 30 seconds left--it is better to take a hard 3 or an easy two and attempt to get another possession?  We will attempt to answer this by building a type of program called a simulation.  We will take what we have learned about our 'tools' and the idea of abstraction and work toward building some statistics that might drive a decision!
 
- 
+We will be talking about how to build the code as we go, but it is important to know that each student will need to actually implement the code themselves in their Replit.
 
-Here are the fundamental elements of basketball:
+## Project Deliverables:
 
-## Objective:
+Along with your program, provide some description of what your program does and how it's logic works.  A flow chart is a great idea for this deliverable.  You can use any tool you'd like for a flowchart if you choose to go that route.  Hand drawn (and scanned or photographed) images are acceptable.
 
-The primary goal is to score points by tossing the ball through the opponent’s goal, which is an elevated horizontal hoop and net called a basket.
+## Additional Information
 
-## Scoring:
+### Key Ideas:
 
-Two-Point Scenario: A two-pointer refers to a shot made from anywhere inside the three-point arc. Successful two-point shots add two points to the team’s total score. These shots can include jump shots, layups, and dunks.
-Three-Point Scenario: Shots made from beyond the three-point arc count for three points.
+Decision-Making in Basketball: The transcript discusses the strategic decision of whether to take a 3-pointer or foul an opponent in the final seconds of a basketball game.
+Monte Carlo Simulation: A Monte Carlo simulation is a tool to analyze probabilities and make informed decisions. This simulation involves running multiple trials of a scenario to estimate the likelihood of different outcomes.  We will model the end of a basketball game to build one!
+Parameters and Assumptions: The simulation relies on various parameters, such as shooting percentages, free-throw percentages, and time remaining. These parameters can be adjusted to explore different scenarios.
+Simulation Logic: The simulation models the actions of both teams, including shot attempts, free throws, rebounds, and time management.
+Outcome Analysis: By running numerous simulations, the program can determine which strategy (taking a 3-pointer or fouling) is more likely to lead to a win based on the given parameters.
+Your Assignment
 
-## Fouls:
+Based on the provided problem statement, design and create a Python program that simulates the end-game scenario of a basketball game, specifically focusing on the decision of whether to take a 3-pointer or attempt to foul an opponent with poor free-throw shooting.
 
-A foul occurs when a player violates the rules, often through illegal personal contact with an opponent or unsportsmanlike behavior.
+## Requirements:
 
-## Free Throws:
-
-After a foul, the clock stops while the fouled player shoots free throws.  While there are different situations in which a player might shoot one or two free throws for one point each, for our program, assume that the team that was fouled will always have the chance for two free throws.
-
-## Time to advance the ball or to foul:  
-
-It takes some time to advance the ball up the court to attempt a two point shot.  We will need to account for this.  It also takes some time (usually a bit less) to commit a foul to stop the clock.
+Monte Carlo Simulation: Implement a Monte Carlo simulation to run multiple trials of the scenario.
+Parameters: Use variables to store (and easily manipulate) the various parameters, such as:
+Your 3-point percentage
+Your 2-point percentage
+Opponent's free-throw percentage
+Time remaining in the game
+Probability of offensive rebound
+Probability of winning in overtime
+Scenario Logic: Accurately represent the game logic, including:
+Taking a 3-pointer and the potential outcomes (making it, missing it, winning in overtime)
+Attempting to foul and the subsequent free-throws and potential offensive rebounds
+Time management based on the score difference and time remaining
+Output: Display the results of the simulation, including:
+The percentage of wins for each strategy (taking a 3-pointer or fouling)
+The average number of points scored in each scenario
