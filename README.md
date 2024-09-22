@@ -27,17 +27,23 @@ Based on the provided problem statement, design and create a Python program that
 ## Requirements:
 
 Monte Carlo Simulation: Implement a Monte Carlo simulation to run multiple trials of the scenario.
+
 Parameters: Use variables to store (and easily manipulate) the various parameters, such as:
+
 Your 3-point percentage
 Your 2-point percentage
 Opponent's free-throw percentage
 Time remaining in the game
 Probability of offensive rebound
 Probability of winning in overtime
+
 Scenario Logic: Accurately represent the game logic, including:
+
 Taking a 3-pointer and the potential outcomes (making it, missing it, winning in overtime)
 Attempting to foul and the subsequent free-throws and potential offensive rebounds
 Time management based on the score difference and time remaining
+
 Output: Display the results of the simulation, including:
+
 The percentage of wins for each strategy (taking a 3-pointer or fouling)
 The average number of points scored in each scenario
