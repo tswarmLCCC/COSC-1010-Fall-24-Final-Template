@@ -12,10 +12,13 @@ Along with your program, provide some description of what your program does and 
 
 ### Key Ideas:
 
-Decision-Making in Basketball: The transcript discusses the strategic decision of whether to take a 3-pointer or foul an opponent in the final seconds of a basketball game.
+*Decision-Making in Basketball:* The transcript discusses the strategic decision of whether to take a 3-pointer or foul an opponent in the final seconds of a basketball game.
+
 Monte Carlo Simulation: A Monte Carlo simulation is a tool to analyze probabilities and make informed decisions. This simulation involves running multiple trials of a scenario to estimate the likelihood of different outcomes.  We will model the end of a basketball game to build one!
+
 Parameters and Assumptions: The simulation relies on various parameters, such as shooting percentages, free-throw percentages, and time remaining. These parameters can be adjusted to explore different scenarios.
 Simulation Logic: The simulation models the actions of both teams, including shot attempts, free throws, rebounds, and time management.
+
 Outcome Analysis: By running numerous simulations, the program can determine which strategy (taking a 3-pointer or fouling) is more likely to lead to a win based on the given parameters.
 Your Assignment
 
